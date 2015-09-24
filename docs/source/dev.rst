@@ -28,11 +28,16 @@ To view the documentation say::
   make view
 
 
+Old Documents
+----------------------------------------------------------------------
 
-  
+TODO: organize
 
-
-
+  * rest-old.rst
+  * rest_api.txt
+  * yaml/api.yaml
+  * man/man.rst
+  * documents/WagnerCometCloudTraining.pdf
 
 REST Service
 ---------------------------------------------------------------

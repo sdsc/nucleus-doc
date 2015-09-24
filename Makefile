@@ -42,3 +42,12 @@ rmtag:
 	git tag
 	@echo "rm Tag?"; read TAG; git tag -d $$TAG; git push origin :refs/tags/$$TAG
 
+######################################################################
+# SERVICES
+######################################################################
+
+service:
+	cd ../nucleus-service; make start
+
+rest:
+	cd ../nucleus-service; make view
