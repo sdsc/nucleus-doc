@@ -4,6 +4,35 @@ Development Documentation
 The development farmework combines lessons learned from Rocks and
 cloudmesh (mycloudmesh.org). Our goal is to keep it simple.
 
+Development Documentation
+----------------------------------------------------------------------
+
+The development documentation is located at
+
+* https://github.com/sdsc/nucleus-doc/tree/master/docs
+
+The best way to create the documentation is to do it locally so you
+can review the changes before you commit.::
+
+  mkdir -p sdsc/nucleus
+  cd sdsc/nucleus
+  git clone https://github.com/sdsc/nucleus-doc.git
+  cd nucleus-doc
+
+To create the documentation after changes do::
+  
+  make doc
+
+To view the documentation say::
+  
+  make view
+
+
+
+  
+
+
+
 
 REST Service
 ---------------------------------------------------------------
