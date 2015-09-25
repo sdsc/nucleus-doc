@@ -1,8 +1,8 @@
 Development Documentation
 ================================================================
 
-The development farmework combines lessons learned from Rocks and
-cloudmesh (mycloudmesh.org). Our goal is to keep it simple.
+The development framework combines lessons learned from Rocks and
+cloudmesh (mycloudmesh.org). Our goal is to keep it simple for now.
 
 Development Documentation
 ----------------------------------------------------------------------
@@ -17,9 +17,13 @@ can review the changes before you commit.::
   mkdir -p sdsc/nucleus
   cd sdsc/nucleus
   git clone https://github.com/sdsc/nucleus-doc.git
+  git clone https://github.com/sdsc/nucleus-cli.git
+  git clone https://github.com/sdsc/nucleus-common.git
+  git clone https://github.com/sdsc/nucleus-service.git
+  git clone https://github.com/sdsc/nucleus-roll.git
   cd nucleus-doc
 
-To create the documentation after changes do::
+To create the documentation on your local machine do::
   
   make doc
 
@@ -27,17 +31,21 @@ To view the documentation say::
   
   make view
 
+To publish the documentation onto github say::
+
+  make publish
+
 
 Old Documents
 ----------------------------------------------------------------------
 
 TODO: organize
+`group <../man/man.html#group>`_
 
-  * rest-old.rst
-  * rest_api.txt
-  * yaml/api.yaml
-  * man/man.rst
-  * documents/WagnerCometCloudTraining.pdf
+  * `rest <rest-old.html>`_
+  * :download:`yaml <yaml/api.yaml>`
+  * `man <man/man.html>`_
+  * :download:`pdf <documents/WagnerCometCloudTraining.pdf>`
 
 REST Service
 ---------------------------------------------------------------

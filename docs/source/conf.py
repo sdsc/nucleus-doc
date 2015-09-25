@@ -63,8 +63,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'cloudmesh_client'
-copyright = u'2015, Gregor von Laszewski'
-author = u'Gregor von Laszewski'
+copyright = u'2015, SDSC & Indiana University'
+author = u'Comet Project'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -222,7 +222,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cloudmesh_clientdoc'
+htmlhelp_basename = 'comet_doc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -244,7 +244,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'cloudmesh_client.tex', u'cloudmesh\\_client Documentation',
+    (master_doc, 'comet_doc.tex', u'Comet Documentation',
      u'Gregor von Laszewski', 'manual'),
 ]
 
