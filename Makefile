@@ -51,3 +51,12 @@ service:
 
 rest:
 	cd ../nucleus-service; make view
+
+clean:
+	rm -f ~/comet.db
+
+db:
+	cd ../nucleus-service; make db
+
+api:
+	open http://127.0.0.1:8000/docs
